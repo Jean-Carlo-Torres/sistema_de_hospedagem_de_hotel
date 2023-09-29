@@ -1,0 +1,15 @@
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\bin\Debug\net6.0\HospedagemDeHotel.exe
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\bin\Debug\net6.0\HospedagemDeHotel.deps.json
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\bin\Debug\net6.0\HospedagemDeHotel.runtimeconfig.json
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\bin\Debug\net6.0\HospedagemDeHotel.dll
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\bin\Debug\net6.0\HospedagemDeHotel.pdb
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\HospedagemDeHotel.csproj.AssemblyReference.cache
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\HospedagemDeHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\HospedagemDeHotel.AssemblyInfoInputs.cache
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\HospedagemDeHotel.AssemblyInfo.cs
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\HospedagemDeHotel.csproj.CoreCompileInputs.cache
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\HospedagemDeHotel.dll
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\refint\HospedagemDeHotel.dll
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\HospedagemDeHotel.pdb
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\HospedagemDeHotel.genruntimeconfig.cache
+C:\Users\jeans\Documentos\DIO\.NET\HospedagemDeHotel\obj\Debug\net6.0\ref\HospedagemDeHotel.dll
