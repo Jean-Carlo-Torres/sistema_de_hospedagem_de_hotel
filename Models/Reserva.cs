@@ -1,44 +1,46 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace HospedagemDeHotel.Models
 {
     public class Reserva
     {
-        public List<Pessoa> Hospedes { get; set;}
-        public Suite Suite { get; set;}
-        public int DiasReservados { get; set;}
+        public List<Pessoa> Hospedes { get; set; }
+        public Suite Suite { get; set; }
+        public int DiasReservados { get; set; }
 
-        public Reserva(){}
+        public Reserva() { }
 
-        public Reserva(int diasReservados){
+        public Reserva(int diasReservados)
+        {
             DiasReservados = diasReservados;
         }
 
-        public void CadastrarHospedes(List<Pessoa> hospedes){
-            if(Suite.Capacidade <= hospedes.Count() ){
+        public void CadastrarHospedes(List<Pessoa> hospedes)
+        {
+            if (Suite.Capacidade <= hospedes.Count())
+            {
                 Hospedes = hospedes;
-            } else {
+            }
+            else
+            {
                 Console.WriteLine("A quantidade de hospedes é maior que a quantidade suportada da suite");
             }
         }
 
-        public void CadastrarSuite(Suite suite){
+        public void CadastrarSuite(Suite suite)
+        {
             Suite = suite;
         }
 
-        public int ObterQuantidadeHospedes(){
-           if (Hospedes != null)
-                {
-                    return Hospedes.Count;
-                }
-                else
-                {
-                    return 0; 
-                }
-            
+        public int ObterQuantidadeHospedes()
+        {
+            if (Hospedes != null)
+            {
+                return Hospedes.Count;
+            }
+            else
+            {
+                return 0;
+            }
         }
 
         public string ObterNomesHospedes()
@@ -54,16 +56,18 @@ namespace HospedagemDeHotel.Models
         }
 
 
-        public decimal CalcularValorDiaria(){
+        public decimal CalcularValorDiaria()
+        {
             decimal valorTotal = DiasReservados * Suite.ValorDiaria;
 
-            if(DiasReservados >= 10){
+            if (DiasReservados >= 10)
+            {
                 decimal desconto = valorTotal * 0.10M;
                 valorTotal -= desconto;
             }
 
             return valorTotal;
         }
-        
+
     }
 }
